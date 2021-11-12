@@ -7,8 +7,8 @@
   --secondary-three-color: #f5f4fa;
   --secondary-four-color: #757575;
   --accent-link-color: #2196f3;
-  --ftr-mail-tel-color: rgba(255, 255, 255, 0.6);
- }
+  --secondary-mail-tel-color: rgba(255, 255, 255, 0.6);
+}
 
 /* --main-tit-color: #212121;
 --second-tit-color: #ffffff;
@@ -25,7 +25,7 @@
 --accent-btn-text-color: #ffffff; */
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: var(--primary-shade-color);
   background-color: var(--secondary-color);
 }
@@ -45,7 +45,6 @@ body {
 /* .heading {
     background-color: yellow;
 } */
-
 
 .logo {
   font-family: Raleway;
@@ -95,7 +94,6 @@ body {
   color: var(--accent-link-color);
 }
 
-
 /*----------------------- Index - MAIN -------------------- */
 .main-section {
   background-color: var(--primary-shade-two-color);
@@ -140,7 +138,6 @@ body {
   overflow: hidden;
 }
 
-
 /*  ------- Внимание к деталям ---- */
 .feature-section {
   color: var(--sec-other-bkground);
@@ -165,8 +162,7 @@ body {
 
 /* background-color: var(--secondary-two-color); */
 .work-section {
-    background-color: var(--secondary-color);
-
+  background-color: var(--secondary-color);
 }
 
 /* .sect-four-h-two */
@@ -180,7 +176,7 @@ body {
 }
 
 .team-section {
-    background-color: var(--secondary-three-color);
+  background-color: var(--secondary-three-color);
 }
 /* .sect-five-h-three */
 .team-name {
@@ -207,7 +203,6 @@ body {
   background-color: var(--primary-shade-two-color);
 } */
 
-
 .map {
   font-style: normal;
   font-weight: 400;
@@ -224,20 +219,17 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--ftr-mail-tel-color);
+  color: var(--secondary-mail-tel-color);
 }
-
 
 .secondary-contact-link:hover,
 .secondary-contact-link:focus {
   color: var(--accent-link-color);
 }
 
-
-
 /* ---------- PORTFOLIO.html ------------- */
 .portfolio-heading {
-  background-color: var(--secondary-color);  
+  background-color: var(--secondary-color);
 }
 /* ---------- MAIN ------------- */
 .portfolio-section {
@@ -253,7 +245,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--first-btn-text-color);
   background-color: var(--secondary-three-color);
-  border:0;
+  border: 0;
 }
 
 .secondary-btn:hover,
@@ -261,7 +253,6 @@ body {
   color: var(--secondary-color);
   background-color: var(--accent-link-color);
 }
-
 
 .portfolio-item-title {
   font-style: normal;
