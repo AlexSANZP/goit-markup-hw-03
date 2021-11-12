@@ -1,0 +1,287 @@
+:root {
+  --primary-color: #000000;
+  --primary-shade-color: #212121;
+  --primary-shade-two-color: #2f303a;
+  --secondary-color: #ffffff;
+  /* --secondary-two-color: #e5e5e5; */
+  --secondary-three-color: #f5f4fa;
+  --secondary-four-color: #757575;
+  --accent-link-color: #2196f3;
+  --ftr-mail-tel-color: rgba(255, 255, 255, 0.6);
+ }
+
+/* --main-tit-color: #212121;
+--second-tit-color: #ffffff;
+--first-logo-color: #000000;
+--sec-one-bkground: #2f303a;
+--sec-two-bkground: #e5e5e5;
+--sec-three-bkground: #f5f4fa;
+--first-tex-color: #757575;
+--first-link-color: #212121;
+--accent-link-color: #2196f3;
+--third-link-color: #ffffff;
+--ftr-mail-tel-color: rgba(255, 255, 255, 0.6);
+--first-btn-text-color: #212121;
+--accent-btn-text-color: #ffffff; */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--primary-shade-color);
+  background-color: var(--secondary-color);
+}
+/* background-color: var(--primary-shade-two-color); */
+
+/* Deleting point's from list  */
+.list {
+  list-style: none;
+}
+
+/* Deleting underlining links */
+.link {
+  text-decoration: none;
+}
+
+/*----------------------- Index - HEADER -------------------- */
+/* .heading {
+    background-color: yellow;
+} */
+
+
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--primary-color);
+}
+
+.white-logo {
+  color: var(--secondary-color);
+}
+
+.logo-accent {
+  color: var(--accent-link-color);
+}
+
+.navigation .link.current {
+  color: var(--accent-link-color);
+}
+
+.nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-shade-color);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-link-color);
+}
+
+.contact-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-shade-color);
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--accent-link-color);
+}
+
+
+/*----------------------- Index - MAIN -------------------- */
+.main-section {
+  background-color: var(--primary-shade-two-color);
+}
+
+.main-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--secondary-color);
+}
+
+/* font-family: Roboto; */
+.primary-btn {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+  color: var(--secondary-color);
+  background-color: var(--accent-link-color);
+}
+/* font-style: normal; */
+
+/* .mn-sect-two {
+  background-color: var(--sec-other-bkground);
+} */
+/* Для скрытого раздела после  <h1> "Эффективные решения для вашего бизнеса" */
+.hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+
+/*  ------- Внимание к деталям ---- */
+.feature-section {
+  color: var(--sec-other-bkground);
+}
+
+.features-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-shade-color);
+}
+/* .sect-three-p */
+.features-text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-four-color);
+}
+
+/* background-color: var(--secondary-two-color); */
+.work-section {
+    background-color: var(--secondary-color);
+
+}
+
+/* .sect-four-h-two */
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-shade-color);
+}
+
+.team-section {
+    background-color: var(--secondary-three-color);
+}
+/* .sect-five-h-three */
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-shade-color);
+}
+
+/* .sect-five-p */
+.team-position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-four-color);
+}
+
+/* ------ FOOTER ------------ */
+/* .footer {
+  background-color: var(--primary-shade-two-color);
+} */
+
+
+.map {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+}
+
+/* .footer-contact { */
+.secondary-contact-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--ftr-mail-tel-color);
+}
+
+
+.secondary-contact-link:hover,
+.secondary-contact-link:focus {
+  color: var(--accent-link-color);
+}
+
+
+
+/* ---------- PORTFOLIO.html ------------- */
+.portfolio-heading {
+  background-color: var(--secondary-color);  
+}
+/* ---------- MAIN ------------- */
+.portfolio-section {
+  background-color: var(--secondary-color);
+}
+
+.secondary-btn {
+  font-family: inherit;
+  font-style: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: var(--first-btn-text-color);
+  background-color: var(--secondary-three-color);
+  border:0;
+}
+
+.secondary-btn:hover,
+.secondary-btn:focus {
+  color: var(--secondary-color);
+  background-color: var(--accent-link-color);
+}
+
+
+.portfolio-item-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-shade-color);
+}
+
+/* .port-sect-one-p */
+.portfolio-item-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--secondary-four-color);
+}
+/* ------ FOOTER ------------ */
+.footer {
+  background-color: var(--primary-shade-two-color);
+}
