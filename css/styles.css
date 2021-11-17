@@ -1,3 +1,8 @@
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 :root {
   --primary-color: #000000;
   --primary-shade-color: #212121;
@@ -24,8 +29,18 @@
 --first-btn-text-color: #212121;
 --accent-btn-text-color: #ffffff; */
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: var(--primary-shade-color);
   background-color: var(--secondary-color);
 }
@@ -138,7 +153,7 @@ body {
   overflow: hidden;
 }
 
-/*  ------- Внимание к деталям ---- */
+/*   Section Features  "Особенности - Внимание к деталям" ---- */
 .feature-section {
   color: var(--sec-other-bkground);
 }
@@ -160,6 +175,7 @@ body {
   color: var(--secondary-four-color);
 }
 
+/*   Section Work  "Чем мы занимаемся" ---- */
 /* background-color: var(--secondary-two-color); */
 .work-section {
   background-color: var(--secondary-color);
@@ -175,6 +191,7 @@ body {
   color: var(--primary-shade-color);
 }
 
+/*   Section Team  "Наша команда" ---- */
 .team-section {
   background-color: var(--secondary-three-color);
 }
