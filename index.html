@@ -11,74 +11,85 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="heading">
       <div class="container header-container">
-      <a class="logo link" href="./index.html"
-        ><span class="logo-accent" lang="en">Web</span>Studio</a
-      >
-      <nav class="navigation">
-        <ul class="nav-list list">
-          <li class="nav-item">
-            <a href="./index.html" class="nav-link link current">Студия</a>
+        <a class="logo link" href="./index.html"
+          ><span class="logo-accent" lang="en">Web</span>Studio</a
+        >
+        <nav class="navigation">
+          <ul class="nav-list list">
+            <li class="nav-item">
+              <a href="./index.html" class="nav-link link current">Студия</a>
+            </li>
+            <li class="nav-item">
+              <a href="./portfolio.html" class="nav-link link">Портфолио</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="contact-list list">
+          <li class="contact-item">
+            <a class="contact-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
-          <li class="nav-item">
-            <a href="./portfolio.html" class="nav-link link">Портфолио</a>
-          </li>
-          <li class="nav-item">
-            <a href="" class="nav-link link">Контакты</a>
+          <li class="contact-item">
+            <a class="contact-link link" href="tel:+380961111111">+38 096 111 11 11</a>
           </li>
         </ul>
-      </nav>
-      <ul class="contact-list list">
-        <li class="contact-item">
-          <a class="contact-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        </li>
-        <li class="contact-item">
-          <a class="contact-link link" href="tel:+380961111111">+38 096 111 11 11</a>
-        </li>
-      </ul>
-    </div>
+      </div>
     </header>
     <main>
       <section class="main-section">
-        <h1 class="main-title">Эффективные решения для вашего бизнеса</h1>
-        <button class="primary-btn" type="button">Заказать услугу</button>
+        <div class="container main-container">
+          <h1 class="main-title">Эффективные решения для вашего бизнеса</h1>
+          <button class="primary-btn" type="button">Заказать услугу</button>
+        </div>
       </section>
       <!-- Секция Особенности  -->
       <section class="feature-section">
         <!--- (будет скрыт)  -->
+        <!-- <div class="container feature-container"> -->
         <h2 class="hidden">Особенности</h2>
         <!--     -->
-        <ul class="features-list list">
-          <li class="features-item">
-            <h3 class="features-title">Внимание к деталям</h3>
-            <p class="features-text">
-              Идейные соображения, а также начало повседневной работы по формированию позиции.
-            </p>
-          </li>
-          <li class="features-item">
-            <h3 class="features-title">Пунктуальность</h3>
-            <p class="features-text">
-              Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
-            </p>
-          </li>
-          <li class="features-item">
-            <h3 class="features-title">Планирование</h3>
-            <p class="features-text">
-              Равным образом консультация с широким активом в значительной степени обуславливает.
-            </p>
-          </li>
-          <li class="features-item">
-            <h3 class="features-title">Современные технологии</h3>
-            <p class="features-text">
-              Значимость этих проблем настолько очевидна, что реализация плановых заданий.
-            </p>
-          </li>
-        </ul>
+        <div class="container feature-container">
+          <ul class="features-list list">
+            <li class="features-item">
+              <h3 class="features-title">Внимание к деталям</h3>
+              <p class="features-text">
+                Идейные соображения, а также начало повседневной работы по формированию позиции.
+              </p>
+            </li>
+            <li class="features-item">
+              <h3 class="features-title">Пунктуальность</h3>
+              <p class="features-text">
+                Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
+              </p>
+            </li>
+            <li class="features-item">
+              <h3 class="features-title">Планирование</h3>
+              <p class="features-text">
+                Равным образом консультация с широким активом в значительной степени обуславливает.
+              </p>
+            </li>
+            <li class="features-item">
+              <h3 class="features-title">Современные технологии</h3>
+              <p class="features-text">
+                Значимость этих проблем настолько очевидна, что реализация плановых заданий.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
       <section class="work-section">
         <h2 class="section-title">Чем мы занимаемся</h2>
@@ -137,7 +148,9 @@
             >
           </li>
           <li>
-            <a class="secondary-contact-link link" href="mailto:info@example.com">info@example.com</a>
+            <a class="secondary-contact-link link" href="mailto:info@example.com"
+              >info@example.com</a
+            >
           </li>
           <li>
             <a class="secondary-contact-link link" href="tel:+380991111111">+38 099 111 11 11</a>

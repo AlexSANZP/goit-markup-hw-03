@@ -1,6 +1,26 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
 *::before,
 *::after {
-  box-sizing: border-box;
+  box-sizing: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
 }
 
 :root {
@@ -29,20 +49,12 @@
 --first-btn-text-color: #212121;
 --accent-btn-text-color: #ffffff; */
 
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--primary-shade-color);
+  background-color: var(--secondary-color);
 }
-
-ul {
-  margin: 0;
-  padding: 0;
-}
+/* background-color: var(--primary-shade-two-color); */
 
 .container {
   width: 1200px;
@@ -51,30 +63,34 @@ ul {
   margin: 0 auto;
 }
 
-body {
-  font-family: 'Roboto', sans-serif;
-  color: var(--primary-shade-color);
-  background-color: var(--secondary-color);
-}
-/* background-color: var(--primary-shade-two-color); */
-
 /* Deleting point's from list  */
 .list {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 /* Deleting underlining links */
 .link {
   text-decoration: none;
+  color: inherit;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 /*----------------------- Index - HEADER -------------------- */
 .heading {
   padding-top: 24px;
   padding-bottom: 25px;
-      /* background-color: yellow; */
+  /* background-color: yellow; */
 }
-
+.header-container {
+  display: flex;
+  align-items: center;
+}
 .logo {
   font-family: Raleway;
   font-style: normal;
@@ -99,20 +115,16 @@ body {
 }
 
 .nav-list {
-   display: flex;
-   /* align-items: center; */
+  display: flex;
+  /* align-items: center; */
 }
 .nav-item {
   margin-right: 50px;
 }
 .nav-item:last-child {
   margin-right: 0;
-} 
-
-.header-container {
-  display: flex;
-  align-items: center;
 }
+
 .contact-list {
   display: flex;
   margin-left: auto;
@@ -123,6 +135,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-shade-color);
+  /* padding: 10px; */
 }
 
 .nav-link:hover,
@@ -155,6 +168,16 @@ body {
 /*----------------------- Index - MAIN -------------------- */
 .main-section {
   background-color: var(--primary-shade-two-color);
+  padding-top: 94px;
+  padding-bottom: 94px;
+  /* text-align: center; */
+}
+.main-container {
+  padding-top: 200px;
+  padding-bottom: 280px;
+  /* text-align: center; */
+
+  /* padding: 200px 452px 280px 452px; */
 }
 
 .main-title {
@@ -165,26 +188,42 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--secondary-color);
+  max-width: 696px;
+  margin-top: 30px;
+
+  /* padding: 200px 452px 280px 452px; */
 }
 
 /* font-family: Roboto; */
 .primary-btn {
+  display: inline-block;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  display: flex;
-  align-items: center;
+  /* display: flex;
+  align-items: center; */
   letter-spacing: 0.06em;
   color: var(--secondary-color);
   background-color: var(--accent-link-color);
+  min-width: 200px;
+  padding: 10px 32px 10px;
+  /* padding-top: 10px;
+  padding-bottom: 10px; */
 }
 /* font-style: normal; */
 
 /* .mn-sect-two {
   background-color: var(--sec-other-bkground);
 } */
-/* Для скрытого раздела после  <h1> "Эффективные решения для вашего бизнеса" */
+
+/*   Section Features  "Особенности - Внимание к деталям" ---- */
+.feature-section {
+  color: var(--sec-other-bkground);
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+/* Для скрытого h2 после  <h1> "Эффективные решения для вашего бизнеса" */
 .hidden {
   position: absolute;
   width: 1px;
@@ -196,9 +235,9 @@ body {
   overflow: hidden;
 }
 
-/*   Section Features  "Особенности - Внимание к деталям" ---- */
-.feature-section {
-  color: var(--sec-other-bkground);
+.feature-container {
+  display: flex;
+  align-items: center;
 }
 
 .features-title {
