@@ -1,4 +1,5 @@
-html {
+/* Setting in modern-normalize */
+/* html {
   box-sizing: border-box;
 }
 
@@ -7,6 +8,8 @@ html {
 *::after {
   box-sizing: inherit;
 }
+*/
+
 
 p,
 h1,
