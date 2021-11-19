@@ -10,7 +10,6 @@
 }
 */
 
-
 p,
 h1,
 h2,
@@ -173,11 +172,12 @@ img {
   background-color: var(--primary-shade-two-color);
   padding-top: 94px;
   padding-bottom: 94px;
-  /* text-align: center; */
 }
 .main-container {
   padding-top: 200px;
   padding-bottom: 280px;
+  padding-left: auto;
+  padding-right: auto;
   /* text-align: center; */
 
   /* padding: 200px 452px 280px 452px; */
@@ -191,28 +191,28 @@ img {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--secondary-color);
+
   max-width: 696px;
-  margin-top: 30px;
+  margin: 0 auto;
+  margin-bottom: 30px;
 
   /* padding: 200px 452px 280px 452px; */
 }
 
+/* display: inline-block; */
 /* font-family: Roboto; */
 .primary-btn {
-  display: inline-block;
+  display: block;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  /* display: flex;
-  align-items: center; */
   letter-spacing: 0.06em;
   color: var(--secondary-color);
   background-color: var(--accent-link-color);
   min-width: 200px;
   padding: 10px 32px 10px;
-  /* padding-top: 10px;
-  padding-bottom: 10px; */
+  margin: 0 auto;
 }
 /* font-style: normal; */
 
@@ -238,7 +238,7 @@ img {
   overflow: hidden;
 }
 
-.feature-container {
+.ul-flex {
   display: flex;
   align-items: center;
 }
@@ -250,7 +250,10 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-shade-color);
+  max-width: 270px;
+  margin-bottom: 10px;
 }
+
 /* .sect-three-p */
 .features-text {
   font-weight: normal;
@@ -258,12 +261,20 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--secondary-four-color);
+  max-width: 270px;
 }
 
 /*   Section Work  "Чем мы занимаемся" ---- */
 /* background-color: var(--secondary-two-color); */
 .work-section {
   background-color: var(--secondary-color);
+}
+
+.work-item {
+  margin-right: 30px;
+}
+.work-item:last-child {
+  margin-right: 0;
 }
 
 /* .sect-four-h-two */
@@ -274,11 +285,16 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-shade-color);
+  max-width: 376px;
+  margin: 0 auto 50px;
+  /* margin-bottom: 50px; */
 }
 
 /*   Section Team  "Наша команда" ---- */
 .team-section {
   background-color: var(--secondary-three-color);
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 /* .sect-five-h-three */
 .team-name {
