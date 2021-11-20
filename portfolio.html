@@ -22,11 +22,10 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="portfolio-heading">
+    <header class="heading">
       <div class="container header-container">
-        <!-- <a class="hdr-logo link" href="index.html">WebStudio</a> -->
-        <a class="logo link" href="./index.html" lang="en"
-          ><span class="logo-accent">Web</span>Studio</a
+        <a class="logo link" href="./index.html"
+          ><span class="logo-accent" lang="en">Web</span>Studio</a
         >
         <nav class="navigation">
           <ul class="nav-list list">
@@ -56,8 +55,9 @@
 
       <!-- <section class="port-sect-one"> -->
       <section class="portfolio-section">
-        <h1 class="hidden">Наше портфолио</h1>
-        <ul class="filter-list list">
+        <div class="container">
+        <h1 class="hidden">Наше портфолио</h1>        
+        <ul class="filter-list list ul-flex">
           <li class="filter-item">
             <button class="secondary-btn" type="button">Все</button>
           </li>
@@ -74,7 +74,8 @@
             <button class="secondary-btn" type="button">Маркетинг</button>
           </li>
         </ul>
-        <ul class="portfolio-list list">
+      
+        <ul class="portfolio-list list ul-flex">
           <li class="portfolio-item">
             <a class="portfolio-link link" href="" target="_blank" rel="noopener noreferrer">
               <img src="./images/texnolryak.jpg" alt="Веб-сайт" width="370" height="294" />
@@ -97,7 +98,7 @@
             </a>
           </li>
         </ul>
-        <ul class="portfolio-list list">
+        <ul class="portfolio-list list ul-flex">
           <li class="portfolio-item">
             <a class="portfolio-link link" href="" target="_blank" rel="noopener noreferrer">
               <img src="./images/prime.jpg" alt="Проект Prime" width="370" height="294" />
@@ -120,7 +121,7 @@
             </a>
           </li>
         </ul>
-        <ul class="portfolio-list list">
+        <ul class="portfolio-list list ul-flex">
           <li class="portfolio-item">
             <a class="portfolio-link link" href="" target="_blank" rel="noopener noreferrer">
               <img src="./images/izdanie.jpg" alt="Издание" width="370" height="294" />
@@ -143,33 +144,37 @@
             </a>
           </li>
         </ul>
+      </div>
       </section>
     </main>
     <footer class="footer">
-      <a class="logo white-logo link" href="./index.html" lang="en"
-        ><span class="logo-accent">Web</span>Studio</a
-      >
-      <address>
-        <ul class="footer-list list">
-          <li>
-            <a
-              class="map link"
-              href="https://goo.gl/maps/dzdZx8nhXecqDKRn8"
-              target="_blank"
-              rel="noopener noreferrer"
-              >г. Киев, пр-т Леси Украинки, 26</a
-            >
-          </li>
-          <li>
-            <a class="secondary-contact-link link" href="mailto:info@example.com"
-              >info@example.com</a
-            >
-          </li>
-          <li>
-            <a class="secondary-contact-link link" href="tel:+380991111111">+38 099 111 11 11</a>
-          </li>
-        </ul>
-      </address>
+      <div class="container">
+        <!-- <a class="footer-logo link" href="./index.html" lang="en" -->
+        <a class="logo white-logo link" href="./index.html" lang="en"
+          ><span class="logo-accent">Web</span>Studio</a
+        >
+        <!-- <address> -->
+          <ul class="secondary-contact-list list">
+            <li>
+              <a
+                class="map link"
+                href="https://goo.gl/maps/dzdZx8nhXecqDKRn8"
+                target="_blank"
+                rel="noopener noreferrer"
+                >г. Киев, пр-т Леси Украинки, 26</a
+              >
+            </li>
+            <li>
+              <a class="secondary-contact-link link" href="mailto:info@example.com"
+                >info@example.com</a
+              >
+            </li>
+            <li>
+              <a class="secondary-contact-link link" href="tel:+380991111111">+38 099 111 11 11</a>
+            </li>
+          </ul>
+        <!-- </address> -->
+      </div>
     </footer>
   </body>
 </html>
