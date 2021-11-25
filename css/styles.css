@@ -369,7 +369,6 @@ border-radius: 0px 0px 4px 4px;
 
 .portfolio-item {
   flex-basis: calc((100% - 3 * 30px) / 3);
-  /* flex-basis: calc(100% / 3 - 30px); */
   margin-bottom: 30px;
   margin-right: 30px;
   }
